@@ -1,0 +1,114 @@
+/* Estructura base */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+nav ul li a:hover {
+  color: #ffeb3b;
+  transform: scale(1.1);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2.5rem;
+}
+
+/* Botón de WhatsApp */
+/* Estilo para el botón de WhatsApp */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+  background-color: #128C7E;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.whatsapp-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+
+/* Contenido */
+section {
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Estilo para comentarios tipo Reddit */
+.comments-section {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Estilo para tienda */
+.store {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Estilos del botón */
+button {
+  padding: 10px 20px;
+  background-color: #ff7e5f;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #feb47b;
+}
+
+
